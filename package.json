@@ -1,0 +1,26 @@
+{
+  "name": "redux-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon index.js",
+    "test": "node_modules/.bin/jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuuk79/redux-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuuk79/redux-sample/issues"
+  },
+  "homepage": "https://github.com/tuuk79/redux-sample#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "@reduxjs/toolkit": "^1.4.0",
+    "nodemon": "^2.0.4"
+  }
+}
